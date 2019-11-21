@@ -1,0 +1,212 @@
+!SESSION 2019-09-26 10:30:02.021 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface.text 2 0 2019-09-26 10:30:18.392
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-09-26 10:30:21.418
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Aluno'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface.text 2 0 2019-09-26 10:33:33.228
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jdt.core 4 2 2019-09-26 10:43:41.630
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaProject.compilationUnitResourceExists(AbstractJpaProject.java:1438)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaProject.javaCompilationUnitDeltaIsRelevant(AbstractJpaProject.java:1427)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.javaCompilationUnitDeltaIsRelevant(InternalJpaProjectManager.java:1008)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.handleJavaCompilationUnitDelta(InternalJpaProjectManager.java:1000)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.handleJavaDelta(InternalJpaProjectManager.java:935)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.handleJavaElementChangedEvent(InternalJpaProjectManager.java:918)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.javaElementChanged(InternalJpaProjectManager.java:861)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager$JavaElementChangeListener.elementChanged(InternalJpaProjectManager.java:1387)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$3.run(DeltaProcessor.java:1739)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1727)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fireReconcileDelta(DeltaProcessor.java:1578)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1537)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:777)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1322)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.initialReconcile(JavaReconcilingStrategy.java:188)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.initialReconcile(CompositeReconcilingStrategy.java:122)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.initialReconcile(JavaCompositeReconcilingStrategy.java:144)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:98)
+	at org.eclipse.jdt.internal.ui.text.JavaReconciler.initialProcess(JavaReconciler.java:423)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:177)
+
+!ENTRY org.eclipse.jdt.core 4 4 2019-09-26 10:43:44.386
+!MESSAGE Exception occurred in listener of Java element change notification
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaProject.compilationUnitResourceExists(AbstractJpaProject.java:1438)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaProject.javaCompilationUnitDeltaIsRelevant(AbstractJpaProject.java:1427)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.javaCompilationUnitDeltaIsRelevant(InternalJpaProjectManager.java:1008)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.handleJavaCompilationUnitDelta(InternalJpaProjectManager.java:1000)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.handleJavaDelta(InternalJpaProjectManager.java:935)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.handleJavaElementChangedEvent(InternalJpaProjectManager.java:918)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.javaElementChanged(InternalJpaProjectManager.java:861)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager$JavaElementChangeListener.elementChanged(InternalJpaProjectManager.java:1387)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$3.run(DeltaProcessor.java:1739)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1727)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fireReconcileDelta(DeltaProcessor.java:1578)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1537)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:777)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1322)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.initialReconcile(JavaReconcilingStrategy.java:188)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.initialReconcile(CompositeReconcilingStrategy.java:122)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.initialReconcile(JavaCompositeReconcilingStrategy.java:144)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:98)
+	at org.eclipse.jdt.internal.ui.text.JavaReconciler.initialProcess(JavaReconciler.java:423)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:177)
+!SESSION 2019-09-26 12:16:40.091 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface.text 2 0 2019-09-26 12:17:04.499
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-09-26 12:17:08.789
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Aluno'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2019-10-25 19:43:46.787 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2019-10-25 19:45:14.702
+!MESSAGE Unable to load class 'org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon' from bundle '389'
+!STACK 0
+java.lang.ClassNotFoundException: org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon cannot be found by org.eclipse.ui.ide_3.11.0.v20150510-1749
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:439)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:352)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:344)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:573)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:102)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:73)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:50)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application.createE4Workbench(E4Application.java:283)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:620)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-10-25 19:45:38.690
+!MESSAGE Removing part descriptor with the 'org.eclipse.tips.ide.tipPart' id and the 'Tip of the Day' description. Points to the invalid 'bundleclass://org.eclipse.tips.ide/org.eclipse.tips.ide.internal.TipPart' class.
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-10-25 19:45:40.064
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Aluno.lab1pc13'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be >PóBÉ§È
+'IÔážõeŽ8}Áz`a,³ÀŸä¿ºVáŸ~Ž A¦œžÍHÂùi:sŠ‡&˜3K¦¢9­M«=Wâ"ó!ƒ´ñR«K¸‹›®k|Sz¬³,A7ÍÂPissl.Ô&aHâTH:é»­LÀF2c:¡Ð0^™é ÷n!ô0ãŽw£ô1ˆõ˜ÏRG•kù :•³D‡ßãš¹ð}[KÚªóò²èçu³ë¾jÚ0ÂHyÝæ]/ètcgo7ìÇÌ˜¨µÒBS–rÁÁ—ÕÉ?l¡@æ*«ú¨¿5Â!Ô–ü>z¹·É¬Dñ0Š#äRþö¥ò">9^Ñ‚½«_vŠ~*µÓ)(óóÙ“ffmáÎ9<ðêárË&§‹íAÅ0Sõ8ÒøÏYËn|:×?Y©Of«	4–µ>œ€äÉU?XÂ4qçùø‡2V2®"|µCÿJWèÅsSÁ[¦oäÈ>D=C,#¥]‹ ôªÒ4¼ÿËœ‹h2Bü¯Çøkì…@¶‚zTa»~}œ´‡½ÂòåÁdIà‚ê‚8ØO+‰+~)‡N^Ûe=Ù™ÝCƒ£œ÷`Û‰ã
+o"I½L^ïINÐ$Þ»7ß1ÀžÄß×ùÍ=¤~sÝ>àˆJšð .[²¡LàëGsÂ|zJ+à,¸Ldó|MS-…u¹p6ñSÀ0Ý
+ƒüšÏ÷™  ´=!KJ|ÉKÙUò@Qí6†×ÒìX.ê¢•­mH%«A_éì„+nÓbóÒq®ÁÔ2¯IÐÂç@»äL&acÃÚyÂ®@]Ý&†Ê1d+Áê¶[¬ˆ‚–ŠÑ êƒS£zÎ3Ûp˜£œ¾ûXž‘í^@?üwz_Žš¬½Š™x¶QKðÔe†.©Eóæ|éæc«‘ì5;Z}o(®=>O±¸;àá ‘€“MGã„™gßL£!Zb-Ò\zåðo’2ò‡à9ºáyGÝ d|èÎ‰¾Äˆþžc¥BYqò³ƒx‚ô«¹OÙ~ÓÎzÛ–¡ðe`úE
+ÕX1¨XgêD¬þmÿ3ŒYÿ­‚ZùwòÑ¶ÞßÈ»7}zÔ½;‰L3ÚãÆ„IO»_»’£OÆ<)<=ò<¸É³Eì¤†¡JªÙ¸GèkŽ¤(Io*ÉÛÀãìVqID7¤¬QTJ
+&"¯„§”¯»ð‚'šå½l +O*âúN†fÂØ¯4dBlyýAÏÝÓU 8Æ6Î¼O°Ó@…`¸Ãð37®KÑ&åq+o¸x‡ë€î.ÕM-cLN¹‰MX¡~bÞNuúëXS‰0;3Ðüc´^krðË'|ÜîlYP4½”°ù
+p`³O$ôYN<vÈò7›CÞÔD@ ¾ˆ§0õÞë«Ï °ÇŽ„…<_Ieñª»™/´ÑÿÞ9ñè7„$&iŠÅÜjtbRmßžù+¶n¤‡pÚ/€²‹IôLëg¼°5yÖ`A¸YÁ‰üH•Ð”æ»»tšÆÅR•ÏLnü?ÂÒH´ ƒ.Àè`­fŠ³2h¶ZÇóç’ƒâ³N`_‘ØVOÍ°Ò+þ9Û¢Â„
+¨Ýª}	ÆaçÛá%âA¹2ºì}PÇ!½0·$ìæ
+ÚöVn¾Åã…ûâ^Tñý’þ!àþâkóÇºçñ«ÐâJ5É­/ŠU;¶£¼Z©À€¦EHÈ5ÈÆTïÔiG¹›bÚSˆ[@VQä1EíÏý~ RS[j¤ä:ÉØ>‰%žIPù¥IÕŠåpt}Nî *ö4OcâwÕf;£ÆÚo=G¾JwE°¢÷ŒZ‘±ûÜ†ª±~¯Æ“‰XGG1Þ·SæŠtÍ5¡kÇ¤Îp<Ó²r2]¾U5¿BF3AÄQ(Bãí=
+,Å/ö]âð©€7ø	ÍíÌ"Òç£9)UawÛœFpï'@Çì¥í`ÄËø(ãY,<T_¯\¢ªBâ†Fo­Ý}îF¥4¶KîÉ‡eU ·M´­eÚ‹5ü¥ x®j(-
+áÝò“.ð½Èe³&¦·¿C-HmÀÜÙñG18Ž]Sà¨xÊŸ6åÁÕYÔ,†Èó@ÝùÕ3JÍÙ¸µZŽó.ÁƒÈç’áÃÛ¹ËÁEî•"ùÆÆ³½üv$ë´ï{*Ü~ºcéŒÂ¥Ì¦ÊÜÑƒÖÐ:÷’,ÛwÊ$ÁQAïp¦'iy”ì\–É6uKûlýåz“ý<¬O}ËàWÃäý6KÏ‰r·.þl”HéØç_ù¾aVËÕ‹ŽüV¼Q™R×CQ@„Ã¦q+e_øuÅ×Ó‡z=¯òðdÉåD	Ù#)¦H÷ñfÈ?/F&­;DTî¿hÆJHª?èñ'V–lRÜÏªWGüÆjk öæDu(±Ä½ö‘‘V©ôãÒÒ…¬ËeðÁÀü®¬ƒmä&™X0Ã#k\þÞ[Ð€k]•t»ÚÈÒšî1—·èjJæøñÝ?‹óhƒRÈ«²Ã"i9Œªc$ˆQ§Ö#¦ÞÐfR•Às:lÈíua±™ýîöhêÿ[J±Ñ–sªºòTÑPçŒÈBLÔˆ3†¾JBM¿óV¦-Žùæ®³ÁôŸÚ;N³nÍ*ã‘5ãçÚŠ^‡À¡`K_Ù³Ë¨y¡äSd…“$êpÏŠú2Ž	Ç
+œ¾`=°°
+–YàOò_]«ðO?G€Îƒ ?SNÏf$áü49Å‹CÌ™%SQœÖ¦Õž+q‘ùAÚx©Õ%ÜÅM×5¾)=V‰Y– ›æ á¨´¹96j“0$q*$ôÝV&`#™1Ph	¯ÌtûF·z˜qÇ»ŒŠÎQúÄz	Ì†g©£Êµ|ÊY¢ÃïqÍ\øŒ¾­%mÕyyYôóºÙu_5ma¤<‡nó®tº±³·öcfL‰FÔZi¡)K¹ààËêd‹¶P s•U}ÔßáêNK~½ÜÛdV¢xÅr©ûRyŸ¯hÁÞÕ/;E?•Úé”ùùìI3³¶pçxõp¹e“‹ÓÅö b˜©ziüç¬e7>ëŸ¬Ô'
+3‡ÕËZN@òäª,aš¸s‹|üC+W¾Ú¡	¥+ôâ¹©à-Ó7rd¢ž!–‹Ò®E zUiÞÿeÎE4!þ×cü5öB 
+[A=*°]¿>NÚÃ^aùò`²$pAuAì§•ÄÀ•?ÈÈC'¯í²žìŽÌî¡AQÎ{°íÄq…7‘¤^¦¯wƒ$'hï‰ÝŽ›ÇÆï`ÏGâïëüæÇR¿…¹npÄ%Mx—-ÙÐ &ðõ£ˆ9a>=¥p\&²y¾¦©–ÂºŽ\8›ø)`˜n…A~ÍçûLPÚž†%%¾ä%‹ì*y (‹vÃkiö ,uÑÊÖ6¤’Õ ¯…tvÂ·é1ƒyéÎ8W‹`j™×¤hás ]r&“¿°±aí<aW ®îCå²•`uÛ-VDAKÅè	 õÁ©Q=ç™m8ÌÑNÎ_„},ÏÈv/ þ;½/GMÖ^ÅL¼NÛ¨%xê2C—Ô¢ys¾tó±UŽHöš­¾7×Ÿ§XÜðpÐÈ ÀÉ¦£qBÈÌ³o¦Q†-±i.½‹òø7IùCp†ŠÝð¼£n 2>ôFçÎD_bDÏ1†R¡¬8ùÙA<AúÕÜ§l¿ig½mËPøÎ2°ý"…Îê¬T¬3u"Vÿ¶ÿÆ¬ÿ„VA­ü»	ùŽh[ïoäÝ›>½FêÞD¦íqcÂ¤§Ý¯]ÉÑ'cžžyžÜä‹Ù"vRÃP¥ ÕlÜ#t„5GR”¤7•ämàqv«¸$¢RÖ(*%‘WÂ†SÊ×]xÁÍò^6Ð•Î'q}'C3aìW2!¶¼þ çîé*cgÞ'Øi B0Üaø™×¥h„ò¸ƒ•7\¼ƒÃu@w—ê&–1&§ÜÄ&¬P?1o§:ýu¬©D˜hþ1Z¯59	øå>nw¶,(š^JØ|8°Ù§ú,§ž;dù›Í!oj" ßFDŒSzïõÕgPØcGÂBžŽ¯¤²xÕÝÌÚèïœxôÂ “4E„bn5:1
+©¶oÏü[7ÒC8í@ÙÅ$z¦õ3^Øš<k° Ü¬àD~¤JhJó]‹]:Mãb©Êg&7
+þŸai$Z€A`t°V3ÅY4[­ãùóÉAñY'°¯Hl«§fXéÿ‚œmQaBÔn
+Õ¾†ã°óíðñ \]ö>¨ã^˜‚[’vsƒGm{+·ßâñÂ}q/ªø~IÿÀpñµùcÝóøUhq¥šäÖÅª…ÛQ^­ŠT`@Ó"¤ädcªwê‰´#ŒÜŒM1í)Ä- «(ò˜¢öç~?©©-5RrdlŸÄÏ$¨üÒ¤jÅr8º>'wP{š§1qŽ»j³Qcmˆ·ž…#_¥»"Ø Ñ{Æ­ÈØ}nCÕX¿WãIˆD¬££ï[‡©ó EºæšÐµcRg8‹iY9™.ßªš_!£„ â(¡ñö–âû.qøT
+Àü„ævféóÆÑœ”*È°»†mN#¸÷“G cöÒv0âå|”…ñ‚,ª¯W.QU!qC£·Öî¾w£‰R[Œ%÷äÃ²¿*€Û&Ú¿Vˆ2íÅþR¼Wµ”…ðnùI—ø^äŠ²YÓÛß¡¤6`îìø#‡Ç®)ðNT<åO›òÎàê,jCdH‹ù Šîüj¥æì?ÜÚ-Çù —àÁäsÉðám‰Üåà¢G÷J‘|ããÙ^~»’õÚ÷=n?Ý±tHFáRfSeîèAkh{I–mƒ;e’à¨ w8Ó“´<Jv.Ëd›º¥}¶þr½É~Ö§¾åNð‰«aò~›¥ç‡D¹[6J¤tìó¯|ß0«åêEÇ…~+Þ¨L©ë¡( Â…aÓ¸•²/üºb‚ëéC½žWyx2är¢‹„ì‘ŽS¤ûx3äŸ#“Ö"*÷_4c%$ÕŸ@
+ôxˆ+Ë6)îgÕ«#~cµ5{ó
+¢:”Ø?â^ûÈH«TúqiéBÖå2ø``~WÖA‡¶N	ò“L,˜á5.ÿï-hÀµ®Jº]mdiM÷˜Ë[t5%süøîŸÅy´A)ä€UÙa‘4ˆœ¿FÕ1Ä¨SëSo	h3)‡ÊFà96äöº°ØÌ~w{4õÿ-¥ØhË9U]yªh¨sFd!&jÄCß¿?%¡¦ßy«ÓÇ|s×Ù`úOí§Y·f•ñÈšñsmE¯CàP°¥¯ìÙå‰[úÊž]žø@Í%Ÿ"+œ$Q‡{VÔ—q|L8Vàôë…U°Ì’ÿêZ…ú9tý™rz6#	ç§éÌ)^š`Î,™Šjä´6­ö\‰‹Ì‡ÒÆK­.á.nº®ñMé±JÌ²Ý4@¥ÍÍ±¹P›„!‰Sq é¤ï¶2ÉŒé„BÃ@Hxe¦ƒÜ7º…ÐÃŒ;ÞeTtŽÒÇ ÖK`6<KU®åƒèTÎ~kæbÀgôm-i«ÎËË¢œ×Í®ûªiÃ#å9t›w½ Ó½Ý°3#`J4¢ÖJMYÊ_V'Xü°…™«¬ê£þÖ‡PwZòûèåÞ&³ÅÃ(ŽK=øÛ—Ê‹øäxEö®~Ù)ú©ÔN§ ÌÏgOš™µ…k48çðÀ«‡Ë-›\œ.¶	;ÀLÕãHã?g-»ñé\ÿd¥>Q˜9¬&ÐXÖúp’'Wý`	ÓÄ[äãÊXÉ¸ŠðÕýK(]¡ÏMo™¾	#ûõ±ŒX”vm,Ð«JÓðþ/s.¢Éñ¿ã¯±UØ
+êQ	„íúõqÒö
+Ë—“%ªâ`<­$®øA¦p@:ym—õdwdvjŒrÞƒm'Ž+¼‰$õ25x½$9A“xOìvÜ<6~Ç {>_ç7?öú-Ìuû€#6(iÂcX€¸lÉ†0¯EÌ	óiè)­€³à2‘Íó5MµÖuäÂÙÄOÃt+òk>ßg‚‚DÐö„4,)ñ%/YdWÉ}D	 X´Û^K³`¹¨‹V¶¶ •¬}-¤³®¸MˆÌKtÆ¹Z|SË¼&@Ÿí’3™ü…kç	»uu˜j(Ç­«Ûn±"
+Z*FO ¨Nê9ÏlÃaŽvrnø"ìcyF¶{ýðßé}9j²ö*fâuÚF-!ÀS—º¤Í›ó¥›­rD²×ìhõ½¡¸öø<Åâî€‡ƒF N6Bfž}32„h‰µHsé]”À¿IÊÈ‚3TäXè~„çuñ¡7b8w&ú#ú{Ži0”
+eÅÉÏâ	Ò¯æ>eûM;ëm[†Âw–]è)tVo`Å b©±ú·ýÏ0fý7 ´jjåßMÈwDÛz#ïÞôé5R÷î$2ÍhoŒs&=í~íJŽ>ó¤ðôÈó\à&_Ì±“n„*¨fã¡#¬9’¢$½Y¨$o³[Å%Ý²FQ))˜ˆ¼~4œR¾îÂžh–÷²®t>©ˆë;š	c¿Ò	±åõ=wOWhàÛ8ó>ÁN‚áÃÏÜ¸.E› ”Ç}¬¼áâ®º»T7i´Œ19å&6a…ú‰y;Õé¯cM%ÂìÌ@óÑz­yÈIÀ/Ÿðq»³eAÑôRÂæ+ÀÍ>-Ðg9uðØ!ËßlySø6"bœÂhÔ{¯¯>ƒÂ;òt|%•Å«îf¾ÐFÿ{çÄ£ß˜¤)"s«Ñ‰1PHµ}{æ¯Øº‘Âi¿ Ê.&Ñ3­ŸñÀÖäYƒáf'ò#UB;PšïZìÒirKU>3¹QðÿDK#ÑZ º £ƒµš)ÎÊ ÙjÏŸ_HŠÏ:}Eb[=5ÃJ¯øäl‹
+* vS¨ö5$‡o‡—ˆåÊè²÷A‡ôÂÜ’d°›+<jÛ[¹-øî‹xQÅ÷Kú†€û‹¯ÍëžÇ¯B‹+Õ$·¾(V-ìØŽòjU¤š!E × S½SO¤A`äflŠahO!nYE‘Çµ?÷ûHMm©q’ë$[`û$–x&Aå—&U+–ÃÑõ9¹ƒªØÓ<‰sÜU›íŒkC¼õ,ù*ÝÁhˆÞ3hEÆîsªÆú½OB$`Åxß:Le˜(Ò5×„®“:ÃñXLËÊÉtùVÕü
+Í G¡·÷(°¿Øw‰Ã§P Þà'4·s0‹HŸ7Žæ¤TA†Ý5lsÁ½Ÿ<³—¶ƒ/gà£,Œ/d±ðP}½r‰ª
+‰½µv÷¸M”ÒØb,¹'–ýUÜ6ÑþµB”i/Öð—‚àe¸ª] |´(„wËOº4À÷"W”Íš˜Þþµ µsdÇ9Äà8vMw¢â)Ú”wWgQ³"CZÌ QtçTkÌ(5gÿáÖ~h9Î¸n ŸK†oKä.=ºWŠäÏöòÛE¬oÐ¾ï©pûéŽ¥C2
+—2›*sGZCëÜK²lÜ)“G½Ã™ž¤åQ²sY&ÛÔ-í³õ—ëMöó°>õ-w‚O\“÷Û,=?$ÊÝºø³Q"¥cŸå{ø†Y-W/:.Dð[ñFeJ]E.›Æ­”}á×\Oêõ¼ÊÃ“y$—]$dt¤˜2 ÝÇ›!ÿ¼™´îQ¹ÿ¢1#(!©þR ÇCœXYn°Iq?«^ñ«­Ø›WÕ¡Äþ÷ÚGFZ¥ÒKK².—Áó»²:´uJ˜dbÁ¬qù?xoA®uUÒíj#KkºÇ\Þ¢«)™ãÇwÿ,Î£J!¬Ê‹¤Aäü]0ªŽ‘ FZ˜zK@›I9T6Ïé°!·×…Åfö»Û£©ÿo)ÅF[Î©êÊSEC3"1Q#Îúþý)	5ýÎ[˜¶8æ›»ÎÓjï8Íº5«ŒGÖŒŸk+z‡‚-}eÏ.O| æ…’O‘N’¨Ã=+êË8>&+pú‚õÀÂ*Xf?Éu­Â?ý:‚þL9=›‘„óÓtæ/M0g–LE5rZ›V{®ÄEæCiã¥V—p7]×ø¦ôX%fY‚nš„? ÒææØ\¨MÂÄ©8tÒw[™€dÆtB¡a $¼2ÓAîÝBèaÆï2*:Gécë%0ž¥Ž*×òAt*g‰¿Ç5s1à3ú¶–´UçåeÑÎëf×}Õ´a„‘òºÍ»^ÐéÆÎÞnØ™0%Qk¥…¦,å‚ƒ/«“,~ØBÌUVõQk„C¨;-ù}ôro“Y‰âaGÈ¥üíKåE|r¼¢{W¿ìýTj§SPæç³'ÍÌÚÂ5œsxàÕÃå–M.NÛƒŠ`¦êq¤ñŸ³–Ýøt®²RŸ(ÌVh,k}8É“«~°„iâÎ-òñe¬d\Eøj‡þ%”®Ð‹ç¦‚·LßÈ‘}ˆz†XF,J»6èU¥ixÿ—9Ñd„ø_ñ×Ø*lõ¨Âvýú8i{…åËƒÉ’ÀÕq°?žVWü S8 ¼¶Ëz²;2»‡5F9ïÁ¶ÇÞD’z™¼Þ’œ I¼'v;n¿c€=‰¿¯ó›{Hýæº}À”4á1,@\¶dC˜À×"æ„ù4ô”VÀYp™Èæùš¦Z
+ë:rálâ§€aºù5Ÿï3AA"h{B–”ø’—,²«ä>¢,Úm¯¥Ù°\ÔE+[ÛJVƒ¾ÒÙ	WÜ¦Äæ¥?:ã\->‚©e^“ …ÏvÉ™LþÂÆ†µó„]ºº?L5”cÈV‚Õm·X-£' Ô§Fõœg¶á0G;97|ö±<#Û½€~øïô¾5Y{3ñ:m£–à©Ë]R‹æÍùÒÍÇV9"Ùkv´úÞP\{|žbqwÀÃA# '›ŽÆ	!3Ï¾™FB´ÄZ¤¹ô.Êàß$eäÁ*r,t?ÂóŽºÈøÐ1œ;}‰ý=Ç4J…²âägñéWsŸ²ý¦õ¶-Cá;ËÀ.ô‹:«7°bP±ÎÔ‰XýÛþg³þZ5µòï&ä;¢m½¿‘woúô©{w™f´7Æ9“žv¿v%GŸŒyRxzäy.p“/f‹ØI7B•T³qÐÖIQ’Þ,T’·ÇÙ­â’ˆnHY£¨”LD^	?N)_wáO4Ë{Ù@W:ŸTÄõÍ„±_iÈ„Øòúƒž»§«@4pŒmœyŸ`§
+Áp‡ágn\—¢MÊã>VÞpñ×Ý]ª›4ZÆ˜œr›°BýÄ¼êô×±¦avf ùÇh½Ö<ä$à—Oø¸ÝÙ² hz)aóàÀfŸHè³œ:xìåo6‡¼©‰€@|1Na4ê½×WŸAa	y:¾’ÊâUw3_h£ÿ½sâÑoHLÒŠ¹ÕèÄ(¤Ú¾=óWlÝHá´_ e“è™ÖÏx`kò¬Á‚p³‚ù‘*¡(Íw-vé49Œ‹¥*Ÿ™Ü(ø"„¥‘h- ]€ÑÁZÍgeÐlµŽçÏ/$ÅgÀ¾"±­žša¥Wür¶E…	P»)TûŒÃÎ·ÃKÄƒretÙû ŽCza
+nI2ØÍµí­Ü|‹Ç÷Å¼¨âû%ýCÀýÅ×æuÏãW¡Å•j’[_«vlGyµ*RM‹"k©Þ©'ÒŽ 0r36Å0´§·€¬¢ÈcŠÚŸûý@¤¦¶Ô8HÉu’-°}K<“ òK“ªËáèúœÜAUìižÆÄ9îªÍvFŒµ!ÞzŽ|•îŠ`4Dï´"c÷¹Ucý^'!	°ŽŽb¼o¦2ÌéškB×ŽIáx,¦eådº|«j~…Œf‚ˆ£P„ÆÛ{XŠ_ì»ÄáS( oðšÛ9˜E¤ÏGsRª Ãî¶9àÞOŽÙKÛÁˆ—3ðQÆ²Xx¨¾^¹DU…ÄÞZ»ûÜ&Jil1–Ü“Ëþª n›hÿZ!Ê´køKAð2\Õ.P>ZÂ»å']à{‘+ÊfMLo‡ZÚ€¹²ãbp»¦À;Qñ”?mÊ;ƒ«³¨Y‘!-æ?€(ºó?ª5f”š³ÿpk?´ç\‚7Ï%Ã‡·%r—ƒ‹Ý+EòŒg{ùí"HÖ7hß÷T¸ýtÇÒ!…K™M•¹£­¡uî%Y¶î”I‚£‚ÞáLOÒò(Ù¹,“mê–öÙúËõ&ûyXŸú–;Á'®†Éûm–žån]üÙ(‘Ò±Ï¿ò=|Ã¬–«"ø­x£2¥®‡¢€†MãVÊ¾ðëŠ	®§õz^åáÉ<’Ë‰.²G:RLîãÍ^ŒLZwˆ¨ÜÑŒ”T)Ðã!N¬,7Ø¤¸ŸU¯ŽøÕÖ@ìÍ+ˆêPbÿˆ{í##­RéÇ¥¥Y—Ëàƒù]YÚ:%ÈL2±`†GÖ¸ü¼· ×º*évµ‘¥5Ýc.oÑÕ”Ìñã»çÑ¥Ve‡EÒ rþ.UÇH£N­GL½% Í¤*çtØÛëÂb3ûÝíÑÔÿ·”b£-çTuå©¢¡Î‘…˜¨g}ÿþ”„š~ç­L[óÍ]gƒé?µwœfÝšUÆ#kÆÏµ½Cransfer.retrieve.MultiProtocolRetrieveAdapter.sendRetrieveRequest(MultiProtocolRetrieveAdapter.java:106)
+	at org.eclipse.oomph.setup.internal.core.util.ECFURIHandlerImpl.createInputStream(ECFURIHandlerImpl.java:201)
+	... 10 more
+
+!ENTRY org.eclipse.epp.logging.aeri.ui 2 18 2019-10-25 19:46:45.542
+!MESSAGE Updating the index from remote failed. Version: 1.0.0.v20150617-0732
+!STACK 0
+java.net.UnknownHostException: dev.eclipse.org
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:102)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ui.log.ProblemsDatabaseUpdateJob.getEtag(ProblemsDatabaseUpdateJob.java:94)
+	at org.eclipse.epp.internal.logging.aeri.ui.log.ProblemsDatabaseUpdateJob.run(ProblemsDatabaseUpdateJob.java:58)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.epp.logging.aeri.ui 2 6 2019-10-25 19:46:46.925
+!MESSAGE Failed to determine ETAG for remote problems database. Stopping update. Version: 1.0.0.v20150617-0732

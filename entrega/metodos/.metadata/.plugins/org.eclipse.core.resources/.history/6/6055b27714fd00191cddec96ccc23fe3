@@ -1,0 +1,44 @@
+import java.util.*;
+public class exe {
+	public static void main(String[] args) {
+		Scanner in = new Scanner (System.in);
+		
+		System.out.println("Menu:");
+		System.out.println("");
+		System.out.println("1-Fatorial");
+		System.out.println("2-Tabuada");
+		System.out.println("3-Sexo e Idade");
+		System.out.println("4-Potência");
+		System.out.println("5-Sair");
+		
+		int menu , fator ;
+		
+		System.out.println("");
+		System.out.println("Digite sua Opção");
+		menu = in.nextInt();
+		
+		if(menu==1) {
+			System.out.println("Digite o valor a ser Aplicado o fatorial");
+			fator = in.nextInt();
+			
+			Fatorial(fator);
+		}
+		
+		
+	}
+	
+	public static void Fatorial (int a) {
+		
+		int i=1,total=0, r=1;
+		
+		while(i<=a) {
+			total=r*i;
+			r=total;
+			i++;
+		}
+		System.out.println("O resultado é: "+total);
+			
+	}
+	
+	
+}

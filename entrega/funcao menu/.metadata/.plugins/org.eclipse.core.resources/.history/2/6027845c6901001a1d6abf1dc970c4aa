@@ -1,0 +1,46 @@
+package method;
+
+import java.util.*;
+
+public class exe2 {
+	public static void main(String[] args) {
+		
+		Scanner in = new Scanner ( System.in);
+		
+		int gasto ;
+		
+		System.out.println("Digite o total gasto:");
+		gasto = in.nextInt();
+		
+		System.out.println("");
+		
+		Menu();
+		
+		int menu ;
+		
+		menu = in.nextInt();
+		
+		
+		
+	}
+
+	public static void Menu () {
+		
+		System.out.println("1-A vista com 10% de desconto");
+		
+		System.out.println("");
+		
+		System.out.println("2-Em duas vezes");
+		
+		System.out.println("");
+		
+		System.out.println("3-De 3 a 10 vezes com 3% de juros ao mês,");
+		
+		System.out.println("somente para compras acima de R$100");
+		
+		System.out.println("");
+		
+		System.out.println("Selecione sua opção de acordo com o Menu Acima:");
+		
+	}
+}
